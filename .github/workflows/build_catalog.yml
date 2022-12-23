@@ -1,6 +1,6 @@
 # Builds a users catalog based on the filter query provided in config.txt
 
-name: Build catalog
+name: Build catalog for Microbial Data System
 
 on:
   push:
