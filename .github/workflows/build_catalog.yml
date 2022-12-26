@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: "3.8"
+      - name: Set out
+        run: echo "{name}={value}" >> $GITHUB_OUTPUT
       # Inserts the users GitHub name into the HTML snippet displayed on the root level README
       - name: Update README
         run: |
