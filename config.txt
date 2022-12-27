@@ -1,2 +1,2 @@
 filter = '&fq=keyword:"Microbial Data System"'
-limit = 25
+limit = 20
