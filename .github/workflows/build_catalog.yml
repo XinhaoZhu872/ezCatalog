@@ -20,6 +20,8 @@ jobs:
         run: |
           npm install xml2js
           npm install node-fetch
+      - name: Save state
+        run: echo "{name}={value}" >> $GITHUB_STATE
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT
       # Uses Python to construct the query and parameterize JavaScripts
