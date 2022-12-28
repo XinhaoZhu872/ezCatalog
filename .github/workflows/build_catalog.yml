@@ -26,7 +26,7 @@ jobs:
         uses: spenserblack/actions-set-output@0823443f435d08270ee8179e1add29513a7b325f
       # Uses Python to construct the query and parameterize JavaScripts
       - name: Setup Python 3.8
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4.4.0
         with:
           python-version: "3.8"
       # Inserts the users GitHub name into the HTML snippet displayed on the root level README
